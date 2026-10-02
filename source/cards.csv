@@ -1,0 +1,321 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,A day trade closes before the trading day ends.,,true,,,Day trading means buying and selling within the same day rather than holding overnight.
+2,1,multiple_choice,main,,A day trade closes:,Same day|Next week|Never,0,,,"A day trade opens and closes within one trading day, so nothing is held overnight. Repeating it is day trading; within one day is intraday."
+3,1,select_blank,exercise,2,"Buy 9am, sell 2pm same day: a ___.",Position trade|Day trade|Dividend,1,,,Opening and closing within one day is exactly a day trade.
+4,1,select_blank,exercise,2,___ means within a single trading day.,Overnight|Yearly|Intraday,2,,,Intraday describes anything happening within a single trading day.
+5,1,select_blank,exercise,2,Repeating same-day trades as a strategy is ___.,Day trading|Investing|Saving,0,,,Day trading is the strategy of repeatedly opening and closing trades the same day.
+6,1,multiple_choice,exercise,2,A day trader ends the day with:,Nothing open|Open trades|Long bets,0,,,"Day traders close everything before the session ends, so nothing carries overnight."
+7,1,select_blank,exercise,2,A trade opened and closed by 3pm is ___.,Intraday|Weekly|Yearly,0,,,Anything opened and closed within one trading day is intraday.
+8,1,multiple_choice,exercise,2,Which one must close within one day?,A deposit|Day trade|A fee,1,,,A day trade opens and closes within a single trading day.
+9,1,true_false,preview,10,Position traders hold stocks for weeks or longer.,,true,,,Position trading is the opposite approach from day trading — holding for a longer stretch.
+10,1,multiple_choice,main,,Position trading holds stocks for:,Minutes|Seconds|Long stretches,2,,,"Position trading means holding for weeks, months, or years — unlike day trading, which closes same-day."
+11,1,multiple_choice,exercise,10,Holding a stock 8 months is:,Position trading|Day trading|Saving,0,,,"Holding for months, not closing same-day, is position trading."
+12,1,select_blank,exercise,10,Holding for several weeks fits ___ trading.,Day|Position|Intraday,1,,,Holding across weeks rather than closing same-day is position trading.
+13,2,true_false,preview,14,A stock exchange is where stocks are bought and sold.,,true,,,An exchange is the marketplace where trades actually happen.
+14,2,multiple_choice,main,,An exchange is a:,Stock order|Strategy|Marketplace,2,,,"An exchange, like NYSE or Nasdaq, is a marketplace where stocks trade. A ticker symbol is a stock's short code, like AAPL for Apple."
+15,2,select_blank,exercise,14,AAPL is an example of a ___.,Ticker symbol|Exchange|Day trade,0,,,AAPL is the short code identifying Apple's stock — a ticker symbol.
+16,2,multiple_choice,exercise,14,NYSE is an actual:,Ticker symbol|Exchange|Order type,1,,,The New York Stock Exchange is a real marketplace where stocks trade.
+17,2,select_blank,exercise,14,A stock's short code is its ___.,Exchange|Day trade|Ticker symbol,2,,,"A ticker symbol is the short code identifying a stock, like AAPL."
+18,2,select_blank,exercise,14,Nasdaq is an ___.,Ticker symbol|Order type|Exchange,2,,,"Nasdaq is an exchange, a marketplace where stocks trade."
+19,2,true_false,preview,20,Pre-market and after-hours sit outside regular market hours.,,true,,,"Trading happens in different sessions across the day — pre-market, regular hours, and after-hours."
+20,2,multiple_choice,main,,A trading session is a:,Time block|Stock order|Chart type,0,,,"Sessions are blocks of trading time: pre-market before the open, the regular session (main window), after-hours after the close. Extended hours are choppier."
+21,2,multiple_choice,exercise,20,"Before the open, trading happens:",After-hours|Pre-market|Never,1,,,Pre-market is the session before the official market open.
+22,2,select_blank,exercise,20,Trading after the close is called ___.,Pre-market|Regular session|After-hours,2,,,After-hours is the session after the official market close.
+23,2,multiple_choice,exercise,20,Pre-market and after-hours tend to be:,Choppier|Calmer|Identical,0,,,Pre-market and after-hours sessions are usually thinner and choppier than the regular session.
+24,2,multiple_choice,exercise,20,The main trading window is the:,Pre-market|Regular session|After-hours,1,,,The regular session is the standard trading window where most trading activity happens.
+25,2,multiple_choice,exercise,20,After-hours comes after the:,Close|Open|Ticker,0,,,After-hours trading starts once the regular session closes.
+26,2,select_blank,exercise,20,"Pre-market, regular and after-hours are trading ___.",Orders|Sessions|Symbols,1,,,"Each one is a session, a block of trading time."
+27,3,true_false,preview,28,A market order fills at the best price available now.,,true,,,A market order trades speed for price certainty — it fills right away.
+28,3,multiple_choice,main,,A market order guarantees:,Exact price|Nothing|Fast fill,2,,,"A market order buys or sells immediately at the best available price — it guarantees the trade happens, not the exact price."
+29,3,multiple_choice,exercise,28,"Buying right now, any price, uses a:",Market order|Exchange|Ticker symbol,0,,,A market order fills immediately at whatever price is available.
+30,3,select_blank,exercise,28,Market orders execute ___.,Never|Immediately|Tomorrow,1,,,A market order is meant to execute right away.
+31,3,true_false,preview,32,A limit order fills only at your price or better.,,true,,,A limit order trades execution certainty for price control.
+32,3,multiple_choice,main,,A limit order guarantees:,A fast fill|Nothing|A price,2,,,A limit order only buys or sells at a chosen price or better — it might never fill if the market doesn't reach it.
+33,3,multiple_choice,exercise,32,Buy only at $50 or less uses a:,Limit order|Market order|Exchange,0,,,A limit order lets you set the exact price you're willing to trade at.
+34,3,multiple_choice,exercise,32,A limit order might:,Always fill|Never fill|Fill twice,1,,,"If the market price never reaches your limit, the order simply sits unfilled."
+35,3,true_false,preview,36,A stop order waits until its trigger price hits.,,true,,,A stop order waits quietly until its trigger price is hit.
+36,3,multiple_choice,main,,"Once triggered, a stop order becomes a:",Limit order|Exchange|Market order,2,,,"A stop order triggers, then becomes a market order. A stop-limit order triggers into a limit order: it guarantees price, not a fill."
+37,3,multiple_choice,exercise,36,"A stop-limit order becomes, once triggered, a:",Limit order|Market order|Ticker,0,,,"A stop-limit order turns into a limit order once triggered, guaranteeing price but not a fill."
+38,3,select_blank,exercise,36,"A stop-limit order guarantees ___, not a fill.",Speed|Price|Nothing,1,,,"A stop-limit order guarantees price, at the cost of not guaranteeing it fills."
+39,3,multiple_choice,exercise,36,"Trigger $40, then fill at any price uses a:",Stop-limit order|Limit order|Stop order,2,,,"A plain stop order triggers at $40, then fills as a market order at whatever price is available."
+40,3,match_pairs,exercise,36,Match each order type to its behavior.,"Market order↔Fills now, any price|Limit order↔Fills at set price|Stop order↔Waits for trigger",,,,"Each order type trades off speed, price control, and when it activates differently."
+41,4,true_false,preview,42,The spread is the gap between the bid and ask.,,true,,,The spread is simply the distance between what buyers offer and what sellers ask.
+42,4,multiple_choice,main,,The ask is the:,Seller's price|Buyer's price|Close price,0,,,The ask is the lowest price a seller accepts; the bid is the highest a buyer pays. The spread is the gap between them.
+43,4,multiple_choice,exercise,42,The bid is the:,Seller's price|Buyer's price|Open price,1,,,The bid is the highest price a buyer is currently willing to pay.
+44,4,multiple_choice,exercise,42,"Bid $10.00, ask $10.05. Spread is:",$10.00|$10.05|$0.05,2,,,The spread is the gap between bid and ask: $10.05 minus $10.00 is $0.05.
+45,4,select_blank,exercise,42,Selling now fills near the ___.,Bid|Ask|Spread,0,,,Sellers generally fill near the bid — the price buyers are currently offering.
+46,4,select_blank,exercise,42,A buy order typically fills close to the ___.,Bid|Ask|Spread,1,,,Buyers generally fill near the ask — the price sellers are currently accepting.
+47,4,match_pairs,exercise,42,Match each term to what it means.,Bid↔Buyer's highest price|Ask↔Seller's lowest price|Spread↔Gap between the two,,,,"Bid, ask, and spread describe the two sides of the market and the gap between them."
+48,4,multiple_choice,exercise,42,A wider bid-ask gap is a wider:,Order|Exchange|Spread,2,,,The spread is the gap between the bid and the ask.
+49,4,true_false,preview,50,Low liquidity can cause slippage on a trade.,,true,,,"Thin markets move more per trade, which is exactly what causes slippage."
+50,4,multiple_choice,main,,Liquidity means a stock trades:,Slowly|Never|Easily,2,,,"Liquidity is how easily a stock trades without moving its price. Low liquidity makes slippage, a fill price different from expected, more likely."
+51,4,select_blank,exercise,50,An unexpected fill price is called ___.,Slippage|Liquidity|A spread,0,,,Slippage is when a trade fills at a different price than expected.
+52,4,multiple_choice,exercise,50,Few buyers and sellers means:,High liquidity|Low liquidity|Zero spread,1,,,"Few active buyers and sellers means the stock is illiquid, or has low liquidity."
+53,4,multiple_choice,exercise,50,Thin markets cause more:,A spread|A stop order|Slippage,2,,,"Thin, illiquid markets make unexpected fill prices — slippage — more likely."
+54,4,multiple_choice,exercise,50,A market order in a thin stock risks:,Slippage|A dividend|A ticker,0,,,"Thin, low-liquidity stocks make slippage more likely, especially with a market order."
+55,5,true_false,preview,56,A margin account lets you borrow to buy stock.,,true,,,Margin accounts add borrowing on top of a trader's own cash.
+56,5,multiple_choice,main,,A broker is a:,Order platform|Regulator|Chart pattern,0,,,A broker is the firm or platform placing your orders. A cash account uses only your deposits; a margin account lets you borrow.
+57,5,multiple_choice,exercise,56,A cash account trades with:,Borrowed money|Deposited money|Others' money,1,,,A cash account has no borrowing — only your own deposited money.
+58,5,multiple_choice,exercise,56,Borrowing to buy more stock needs a:,Cash account|Exchange|Margin account,2,,,A margin account's defining feature is allowing borrowing against your equity.
+59,5,select_blank,exercise,56,No borrowing at all means a ___.,Cash account|Margin account|Exchange,0,,,A cash account restricts trading to money you've actually deposited.
+60,5,multiple_choice,exercise,56,Your orders route through your:,Exchange|Broker|Ticker symbol,1,,,A broker is the platform your orders actually go through.
+61,5,select_blank,exercise,56,A firm that places your orders is a ___.,Exchange|Broker|Ticker,1,,,A broker is the firm your orders go through.
+62,5,match_pairs,exercise,56,Match each term to its rule.,Cash account↔Deposits only|Margin account↔Can borrow|Broker↔Places your orders,,,,"A cash account uses deposits only, a margin account allows borrowing, and the broker places the orders."
+63,5,true_false,preview,64,Leverage lets borrowed money control a bigger position.,,true,,,Leverage is exactly that: borrowed money amplifying your buying power.
+64,5,multiple_choice,main,,Buying power is your:,Total profit|Share count|Purchase limit,2,,,"Buying power is the dollar amount of stock you can buy now. Leverage lets borrowed money control a bigger position, amplifying gains and losses."
+65,5,select_blank,exercise,64,Leverage multiplies ___.,Both ways|Only gains|Only losses,0,,,Leverage amplifies the outcome in either direction — bigger gains and bigger losses.
+66,5,multiple_choice,exercise,64,"$1,000 cash controlling $2,000 of stock is:",Cash account|Leverage|Stop order,1,,,Controlling a bigger position than your own cash could buy is leverage.
+67,5,multiple_choice,exercise,64,More leverage means:,Less risk|No risk|More risk,2,,,More leverage amplifies both potential gains and potential losses.
+68,5,select_blank,exercise,64,More leverage buys a bigger ___.,Ticker|Spread|Position,2,,,Leverage lets borrowed money control a bigger position than your cash alone.
+69,6,true_false,preview,70,A day trade opens and closes on the same day.,,true,,,A day trade is a same-day trade.
+70,6,multiple_choice,main,,Which order fills only at your price?,Limit order|Market order|Exchange,0,,,A limit order fills at your price or better; a market order fills right away. Day trading repeats same-day trades.
+71,6,multiple_choice,exercise,70,The gap between bid and ask is the:,Broker|Spread|Exchange,1,,,The spread is the gap between the bid and the ask.
+72,6,match_pairs,exercise,70,Match each term to its meaning.,Day trading↔Repeating same-day trades|Market order↔Fills right away|Broker↔Places your orders|Margin account↔Can borrow,,,,These are the core ideas of the first five decks.
+73,7,true_false,preview,74,A trading platform is used to chart and place orders.,,true,,,That's exactly what a trading platform is for.
+74,7,multiple_choice,main,,Where do traders chart and place orders?,Trading platform|Exchange|Margin account,0,,,A trading platform is software for charts and orders. Order entry builds and sends orders; a watchlist tracks stocks you follow.
+75,7,multiple_choice,exercise,74,Building and sending an order uses:,A watchlist|Order entry|A spread,1,,,Order entry is the tool used to build and submit an order.
+76,7,select_blank,exercise,74,Tracked stocks you don't own sit on a ___.,Order entry|Exchange|Watchlist,2,,,A watchlist tracks stocks of interest without holding a position.
+77,7,multiple_choice,exercise,74,Placing an order is a platform's:,Core job|Regulatory job|Tax job,0,,,Placing orders is a core function of any trading platform.
+78,7,multiple_choice,exercise,74,Charts and orders both live on a:,Ticker symbol|Trading platform|Margin account,1,,,A trading platform is where both charting and order placement happen.
+79,7,match_pairs,exercise,74,Match each tool to its job.,Order entry↔Sends your order|Watchlist↔Tracks stocks|Trading platform↔Charts and orders,,,,A trading platform holds both tools: order entry sends orders and a watchlist tracks stocks.
+80,7,select_blank,exercise,74,Following AAPL without buying it uses a ___.,Watchlist|Spread|Margin,0,,,A watchlist tracks stocks you follow without holding a position.
+81,7,true_false,preview,82,Level II quotes show every bid and ask waiting.,,true,,,Level II data goes deeper than the single best bid and ask.
+82,7,multiple_choice,main,,A charting platform mainly:,Regulates brokers|Sets margin|Displays charts,2,,,A charting platform displays price charts. Real-time data is live pricing; Level II quotes show every waiting bid and ask.
+83,7,multiple_choice,exercise,82,"Live, up-to-the-second prices are:",Real-time data|Delayed data|Old data,0,,,"Real-time data updates live, unlike delayed or historical data."
+84,7,select_blank,exercise,82,Every waiting bid and ask shows in ___.,A watchlist|Level II|A ticker,1,,,Level II data shows the full stack of current bids and asks.
+85,7,multiple_choice,exercise,82,Deep order-book detail comes from:,Real-time data|A watchlist|Level II,2,,,Level II quotes give the deep order-book detail a trader wants.
+86,7,match_pairs,exercise,82,Match each platform feature to what it shows.,Charting platform↔Price charts|Real-time data↔Live prices now|Level II↔Full bid/ask stack,,,,"A charting platform, real-time data, and Level II quotes each add a different layer of market detail."
+87,7,multiple_choice,exercise,82,Which one mainly displays price charts?,Broker|Charting platform|Exchange,1,,,A charting platform focuses on displaying and analyzing price charts.
+88,7,multiple_choice,exercise,82,Delayed prices are the opposite of:,Level II|A chart|Real-time data,2,,,"Real-time data updates live, unlike delayed data."
+89,7,true_false,preview,90,Some platforms both chart and execute trades.,,true,,,Not every platform does both jobs — some are charting-only.
+90,7,multiple_choice,main,,A charts-only tool needs a broker to:,Execute trades|Show charts|Track prices,0,,,"An execution platform, like a broker's own, both analyzes charts and executes trades. A charts-only tool needs a broker to place orders."
+91,7,multiple_choice,exercise,90,"Charting in one app, ordering in another shows:",One tool|Split tools|No tools,1,,,This is exactly how a standalone charting platform connects out to a broker to execute.
+92,7,select_blank,exercise,90,A broker's own platform is an ___ platform.,Analysis-only|Regulator|Execution,2,,,A broker's own platform is an execution platform — it can both analyze and execute trades.
+93,7,true_false,preview,94,Hotkeys send an order with a single keystroke.,,true,,,That's exactly what a hotkey is for — speed.
+94,7,multiple_choice,main,,A hotkey is a:,Fast shortcut|Stock order|Regulator,0,,,A hotkey is a preset keyboard shortcut that sends an order with one keystroke. Desktop platforms favor hotkey speed; mobile trades it for convenience.
+95,7,multiple_choice,exercise,94,Fast hotkey trading favors:,Mobile|Desktop|Tablets,1,,,"Desktop platforms are generally where hotkey-driven, fast order entry happens."
+96,7,select_blank,exercise,94,Mobile apps trade hotkey speed for ___.,More precision|More data|Convenience,2,,,Mobile apps trade some hotkey speed for the convenience of trading anywhere.
+97,7,true_false,preview,98,Many brokers now charge zero trading commissions.,,true,,,Zero-commission trading still has to be paid for somehow — this is how.
+98,7,multiple_choice,main,,A commission is a:,Trade fee|Tax|A spread,0,,,A commission is a broker's fee per trade; many now charge zero. Payment for order flow is revenue brokers earn routing orders to market makers.
+99,7,select_blank,exercise,98,Payment for order flow is broker ___.,Fee|Revenue|Tax,1,,,Payment for order flow is revenue that a broker earns from routing orders to a market maker.
+100,7,multiple_choice,exercise,98,Zero-commission brokers still earn via:,Higher prices|Nothing|Order flow,2,,,"Brokers replace commission revenue with other sources, including payment for order flow."
+101,7,multiple_choice,exercise,98,Routing orders to a market maker earns:,Payment|Stop order|Watchlist,0,,,This is the definition of payment for order flow in action.
+102,7,multiple_choice,exercise,98,Free trades still earn brokers:,Order flow|A watchlist|Nothing,0,,,Brokers earn payment for order flow by routing your order to a market maker.
+103,8,true_false,preview,104,FINRA and the SEC both regulate US markets.,,true,,,Both organizations play a role in overseeing how US markets and brokers operate.
+104,8,multiple_choice,main,,FINRA writes rules for:,Exchanges only|Brokers|Companies' prices,1,,,"The SEC is the government agency overseeing US markets. FINRA, a self-regulatory body, writes and enforces the rulebook brokers must follow."
+105,8,multiple_choice,exercise,104,The SEC is a:,Trading platform|Stock exchange|Government agency,2,,,The SEC is the government agency overseeing the stock markets.
+106,8,select_blank,exercise,104,The government agency is the ___.,SEC|FINRA|NYSE,0,,,The SEC is a government agency; FINRA is a self-regulatory body for brokers.
+107,8,multiple_choice,exercise,104,Broker rulebooks come from:,The SEC|FINRA|A watchlist,1,,,FINRA writes and enforces the rulebook brokers must follow.
+108,8,match_pairs,exercise,104,Match each body to its role.,FINRA↔Writes broker rules|SEC↔Government regulator|Broker↔Follows those rules,,,,"The SEC oversees US markets, FINRA writes the broker rulebook, and brokers must follow it."
+109,8,true_false,preview,110,"The old $25,000 pattern day trader minimum ended in 2026.",,true,,,"That's the real, current regulatory change confirmed by FINRA in 2026."
+110,8,multiple_choice,main,,2026 replaced the $25k rule with:,Higher fee|No rules|Margin rules,2,,,"The old pattern day trader rule set a $25,000 minimum for 4+ day trades. FINRA ended that minimum in 2026, adding an intraday margin requirement."
+111,8,multiple_choice,exercise,110,The old rule applied to accounts making:,4+ trades|1 trade|Zero trades,0,,,The pattern day trader label applied to margin accounts making 4 or more day trades within 5 business days.
+112,8,select_blank,exercise,110,New rules size equity to your ___.,Ticker symbol|Exposure|Watchlist,1,,,The new rules require equity proportional to how much a trader is actually exposed to during the day.
+113,8,multiple_choice,exercise,110,"The $25,000 minimum was:",Doubled|Unchanged|Eliminated,2,,,"FINRA eliminated the old $25,000 pattern day trader minimum in 2026."
+114,8,multiple_choice,exercise,110,Day trade #4 makes you:,Broker|Pattern day trader|SEC,1,,,"Under the old rule, 4+ day trades in five business days labeled you a pattern day trader."
+115,9,true_false,preview,116,"A candlestick shows open, high, low, close.",,true,,,A candlestick shows one period's price.
+116,9,multiple_choice,main,,A candlestick's thick part is its:,Candle body|Wick|Exchange,0,,,"A candlestick shows one period's open, high, low and close. The candle body spans open to close; the wick shows the high and low."
+117,9,multiple_choice,exercise,116,The wick shows a period's:,Open only|High/low|Close only,1,,,"The wick is the thin line above and below the body, showing the highest and lowest prices reached."
+118,9,multiple_choice,exercise,116,The candle body sits between:,High/low|Two wicks|Open/close,2,,,The candle body is the thick block between the opening and closing price.
+119,9,select_blank,exercise,116,The block between open and close is the ___.,Candle body|Wick|Spread,0,,,"The thick, rectangular part of a candlestick is its candle body."
+120,9,multiple_choice,exercise,116,One candlestick represents one:,Full day|Time period|Whole year,1,,,A candlestick covers whatever time period the chart is set to show.
+121,9,select_blank,exercise,116,A thin line above the body is a ___.,Candle body|Exchange|Wick,2,,,The wick is the thin line showing the period's high and low.
+122,9,multiple_choice,exercise,116,"A candlestick shows open, high, low and:",Close|Fee|Broker,0,,,"A candlestick shows one period's open, high, low and close."
+123,9,true_false,preview,124,A bullish candle closes higher than it opened.,,true,,,A bullish candle closes higher than it opened; a bearish candle closes lower than it opened.
+124,9,multiple_choice,main,,A candle that closes higher is:,Bearish|Neutral|Bullish,2,,,"A bullish candle closes higher than it opened, usually shown green; a bearish candle closes lower, usually shown red."
+125,9,select_blank,exercise,124,A red candle usually closed ___.,Lower|Higher|Unchanged,0,,,"A red candle is the conventional color for a bearish candle, which closes lower than it opened."
+126,9,multiple_choice,exercise,124,Bullish candles are usually colored:,Red|Green|Blue,1,,,Charting platforms conventionally color bullish candles green or white.
+127,9,multiple_choice,exercise,124,Seeing a red candle suggests the stock:,Rose|Split|Fell,2,,,"A red candle conventionally marks a bearish candle, meaning the price fell over that period."
+128,9,multiple_choice,exercise,124,"Open $10, close $9: the candle is:",Bullish|Bearish|Neutral,1,,,"A bearish candle closes lower than it opened, usually shown red."
+129,10,true_false,preview,130,A chart's timeframe sets each candle's length.,,true,,,A chart's timeframe — also called its chart interval — sets how much time each candlestick covers.
+130,10,multiple_choice,main,,A chart's timeframe is its:,Chart interval|Candle body|Wick,0,,,"A chart's timeframe — also called its chart interval — sets how much time each candlestick covers, like 1 minute or 1 day."
+131,10,select_blank,exercise,130,Each candlestick's time length is the chart's ___.,Wick|Timeframe|Spread,1,,,The timeframe controls how much time each single candlestick represents.
+132,10,multiple_choice,exercise,130,A 1-minute chart uses a 1-minute:,Candle body|Trend|Timeframe,2,,,A 1-minute chart's timeframe means each candlestick covers 1 minute.
+133,10,multiple_choice,exercise,130,Changing the timeframe changes each candle's:,Time length|Color|Country,0,,,Switching timeframes changes how much time each candlestick on the chart covers.
+134,10,multiple_choice,exercise,130,"On a charting platform, a 5-minute chart shows 5-minute:",Orders|Fees|Candles,2,,,A 5-minute timeframe means each candlestick covers five minutes.
+135,11,true_false,preview,136,Support is a price where drops tend to stop.,,true,,,Support is where a falling stock tends to find buyers; resistance is where a rising stock tends to find sellers.
+136,11,multiple_choice,main,,A price where drops tend to stop is:,Resistance|Support|A candlestick,1,,,Support is where a falling stock's price has historically stopped dropping. Resistance is where a rising stock's price has historically stopped climbing.
+137,11,select_blank,exercise,136,A price where rallies tend to stop is ___.,Support|A timeframe|Resistance,2,,,Resistance is where a rising stock has historically stopped climbing.
+138,11,multiple_choice,exercise,136,Buyers often step in near:,Support|Resistance|A spread,0,,,Support levels are where enough buyers historically step in to stop a decline.
+139,11,multiple_choice,exercise,136,Sellers often step in near:,Support|Resistance|A wick,1,,,Resistance levels are where enough sellers historically step in to stop a rally.
+140,11,multiple_choice,exercise,136,A price floor where falls stall is:,Support|Resistance|A spread,0,,,Support is where a falling price has historically stopped dropping.
+141,11,true_false,preview,142,A breakout pushes price above resistance and keeps climbing.,,true,,,A breakout pushes through resistance and keeps climbing; a breakdown pushes through support and keeps falling.
+142,11,multiple_choice,main,,Price pushing above resistance is a:,Breakdown|Candle body|Breakout,2,,,A breakout pushes through resistance and keeps climbing; a breakdown pushes through support and keeps falling.
+143,11,select_blank,exercise,142,Price pushing below support is a ___.,Breakdown|Breakout|Candlestick,0,,,A breakdown pushes through a support level and keeps falling.
+144,11,multiple_choice,exercise,142,A breakout keeps moving:,Down|Up|Sideways,1,,,A breakout continues climbing past the resistance it broke through.
+145,11,multiple_choice,exercise,142,A breakdown keeps moving:,Up|Sideways|Down,2,,,A breakdown continues falling past the support it broke through.
+146,11,multiple_choice,exercise,142,"Stock stalls at $50, then trades $52: a:",Breakdown|Breakout|Range,1,,,Pushing through resistance and continuing up is a breakout.
+147,12,true_false,preview,148,Order entry sends your order to your broker.,,true,,,Order entry builds and sends orders.
+148,12,multiple_choice,main,,Which one displays price charts?,Broker|FINRA|Charting platform,2,,,"A charting platform displays charts; order entry sends orders. Support is where drops stall, resistance where rallies stall."
+149,12,select_blank,exercise,148,Bodies and wicks make up a ___.,Candlestick|Watchlist|Broker,0,,,A candlestick is built from a body and wicks.
+150,12,match_pairs,exercise,148,Match each term to its meaning.,Order entry↔Sends your order|Charting platform↔Displays charts|Support↔Drops tend to stop|Resistance↔Rallies tend to stop,,,,Platforms and price levels work together.
+151,13,true_false,preview,152,An uptrend makes higher highs and higher lows.,,true,,,An uptrend makes higher highs and higher lows; a downtrend makes lower highs and lower lows; range-bound markets move sideways.
+152,13,multiple_choice,main,,Higher highs and higher lows form an:,Uptrend|Downtrend|Range-bound,0,,,"An uptrend makes higher highs and higher lows; a downtrend, lower highs and lower lows. Range-bound means drifting sideways between steady levels."
+153,13,select_blank,exercise,152,Lower highs and lower lows form a ___.,Uptrend|Downtrend|Breakout,1,,,A downtrend makes lower highs and lower lows.
+154,13,multiple_choice,exercise,152,Sideways price between support and resistance is:,An uptrend|A downtrend|Range-bound,2,,,Range-bound describes a stock drifting sideways without a clear up or down trend.
+155,13,multiple_choice,exercise,152,A stock climbing over time is in a:,Uptrend|Downtrend|Range,0,,,"A stock in an uptrend is generally climbing, making higher highs and higher lows."
+156,13,match_pairs,exercise,152,Match each trend to its shape.,"Uptrend↔Higher highs, higher lows|Downtrend↔Lower highs, lower lows|Range-bound↔Sideways drift",,,,Uptrends and downtrends move directionally; range-bound markets stay sideways.
+157,13,multiple_choice,exercise,152,Price bouncing between $20 and $22 is:,Uptrend|Downtrend|Range-bound,2,,,Sideways movement between steady levels is range-bound.
+158,13,select_blank,exercise,152,Each low is lower than the last: a ___.,Downtrend|Uptrend|Range,0,,,Lower highs and lower lows form a downtrend.
+159,13,true_false,preview,160,A trendline connects a stock's recent highs or lows.,,true,,,A trendline is a straight line connecting a stock's recent highs or lows to show its direction.
+160,13,multiple_choice,main,,A trendline is drawn across recent:,Candle bodies|Highs/lows|Wicks,1,,,"A trendline is a straight line connecting a stock's recent highs or lows, drawn to show the direction it's been moving."
+161,13,select_blank,exercise,160,Connecting recent highs draws a ___.,Timeframe|Spread|Trendline,2,,,A line connecting a stock's recent highs (or lows) is a trendline.
+162,13,multiple_choice,exercise,160,Trendlines help show a stock's:,Direction|Support|Commission,0,,,A trendline helps visualize the direction a stock has been trending in.
+163,14,true_false,preview,164,Volume counts how many shares traded.,,true,,,Volume counts shares that changed hands; a sudden jump is called a volume spike.
+164,14,multiple_choice,main,,Volume measures shares that:,Never traded|Changed hands|Are pending,1,,,"Volume counts shares that changed hands. A sudden jump is a volume spike, often signaling unusually strong interest."
+165,14,select_blank,exercise,164,A sudden burst of trading is a volume ___.,Wick|Trendline|Spike,2,,,"A volume spike is a sudden, much-larger-than-usual burst of shares trading hands."
+166,14,multiple_choice,exercise,164,Very high volume often signals:,Strong interest|No interest|A holiday,0,,,A volume spike often signals unusually strong interest in a stock.
+167,14,multiple_choice,exercise,164,Volume is measured in:,Dollars only|Shares traded|Minutes,1,,,Volume is measured in the number of shares that changed hands.
+168,14,multiple_choice,exercise,164,Low volume means:,Many shares|Few shares|No exchange,1,,,Low volume means few shares changed hands.
+169,15,true_false,preview,170,A moving average smooths price over recent periods.,,true,,,A moving average (like an SMA or EMA) smooths price over recent periods.
+170,15,multiple_choice,main,,A moving average smooths price by:,Ignoring data|Predicting news|Averaging prices,2,,,"A moving average smooths price over recent periods. An SMA weights every price equally; an EMA weights recent prices more, so it reacts faster."
+171,15,select_blank,exercise,170,A simple moving average is called an ___.,SMA|EMA|Volume,0,,,SMA stands for simple moving average — it weights every price equally.
+172,15,select_blank,exercise,170,Weighting recent prices more heavily is an ___.,SMA|EMA|Trendline,1,,,"An EMA, exponential moving average, gives more weight to recent prices than an SMA does."
+173,15,multiple_choice,exercise,170,SMA weights every price:,Recent-heavy|Randomly|Equally,2,,,A simple moving average treats every price in its lookback period the same.
+174,15,multiple_choice,exercise,170,EMA reacts to new prices:,Faster|Slower|Never,0,,,An EMA's extra weight on recent prices makes it react faster than an SMA.
+175,15,select_blank,exercise,170,A moving average smooths ___ over recent periods.,Volume|Orders|Price,2,,,A moving average smooths a stock's price by averaging it.
+176,15,match_pairs,exercise,170,Match each average to its weighting.,SMA↔Equal weights|EMA↔Recent-heavy|Moving average↔Smooths price,,,,"An SMA weights every price equally, an EMA weights recent prices more; both smooth price."
+177,15,true_false,preview,178,A crossover is when two moving averages cross.,,true,,,"When a faster moving average crosses a slower one, that's called a moving average crossover."
+178,15,multiple_choice,main,,Two moving averages crossing is called a:,Breakout|Crossover|Wick,1,,,"A moving average crossover is when a faster average crosses a slower one, often read as a shift in trend."
+179,15,select_blank,exercise,178,Traders watch a moving average ___ for trend shifts.,Breakdown|Spread|Crossover,2,,,A moving average crossover is often read by traders as a signal of a trend shift.
+180,15,multiple_choice,exercise,178,A crossover can signal a shift in:,Trend|Volume only|Spread only,0,,,A moving average crossover is commonly read as a signal that the trend may be shifting.
+181,15,multiple_choice,exercise,178,A 10-day average crossing a 50-day one is a:,Breakout|Crossover|Trendline,1,,,Two moving averages of different lengths crossing each other is a moving average crossover.
+182,16,true_false,preview,183,RSI is a 0-100 scale of recent price moves.,,true,,,"RSI measures momentum from 0 to 100; a high reading suggests overbought, a low reading suggests oversold."
+183,16,multiple_choice,main,,RSI measures a stock's recent:,Volume|Timeframe|Momentum,2,,,"RSI, the Relative Strength Index, measures momentum from 0 to 100. High readings suggest overbought (a pullback); low readings suggest oversold."
+184,16,select_blank,exercise,183,A high RSI often flags a stock as ___.,Overbought|Oversold|Range-bound,0,,,A high RSI reading suggests a stock has risen fast enough to be considered overbought.
+185,16,select_blank,exercise,183,A low RSI often flags a stock as ___.,Overbought|Oversold|Bullish,1,,,A low RSI reading suggests a stock has fallen fast enough to be considered oversold.
+186,16,multiple_choice,exercise,183,RSI stands for Relative:,Speed Index|Spread Index|Strength Index,2,,,RSI stands for Relative Strength Index.
+187,16,multiple_choice,exercise,183,Overbought suggests a stock may be due for a:,Pullback|Rally|Split,0,,,A stock flagged as overbought is considered due for a pullback.
+188,16,multiple_choice,exercise,183,An RSI of 85 usually suggests:,Overbought|Oversold|Range-bound,0,,,A high RSI reading suggests overbought.
+189,16,select_blank,exercise,183,Oversold means price has fallen ___.,Slowly|Fast|Never,1,,,A low RSI reading suggests oversold: the stock has fallen fast.
+190,16,true_false,preview,191,MACD compares two moving averages to show momentum.,,true,,,MACD compares two moving averages to show shifts in a stock's momentum and trend direction.
+191,16,multiple_choice,main,,MACD compares two:,Candle bodies|Moving averages|Exchanges,1,,,"MACD, Moving Average Convergence Divergence, compares two moving averages to show shifts in a stock's momentum and trend direction."
+192,16,select_blank,exercise,191,MACD helps show shifts in trend and ___.,Volume|Spread|Momentum,2,,,MACD is used to read shifts in a stock's momentum and trend.
+193,16,multiple_choice,exercise,191,MACD is mainly used to read:,Momentum shifts|Daily volume|Order types,0,,,"MACD is mainly used to read momentum and trend shifts, not volume or order types."
+194,17,true_false,preview,195,A double top has two similar highs.,,true,,,A double top has two similar highs with a dip between; it often signals a downward reversal.
+195,17,multiple_choice,main,,Two similar highs with a dip between form a:,A breakout|Double top|A trendline,1,,,A double top (two similar highs) often signals a downward reversal. A double bottom (two similar lows) often signals an upward one.
+196,17,select_blank,exercise,195,"Two similar lows, a bounce between, is a ___.",Double top|A trendline|Double bottom,2,,,A double bottom has two similar lows with a bounce between them.
+197,17,multiple_choice,exercise,195,A double top often signals a reversal:,Downward|Upward|Sideways,0,,,A double top often signals that an uptrend is about to reverse downward.
+198,17,multiple_choice,exercise,195,Seeing a double bottom suggests a stock will:,Fall|Rise|Split,1,,,A double bottom often signals that a downtrend is about to reverse upward.
+199,17,multiple_choice,exercise,195,A double bottom often precedes a move:,Down|Sideways|Up,2,,,A double bottom often signals a reversal upward.
+200,17,true_false,preview,201,"Head and shoulders has three peaks, the middle highest.",,true,,,"Head and shoulders shows three peaks, the middle one highest, and often signals a reversal."
+201,17,multiple_choice,main,,"In head and shoulders, the middle peak is:",Lowest|Same height|Highest,2,,,"Head and shoulders shows three peaks, middle highest, often signaling a reversal. A flag pattern is a brief sideways pause before the trend continues."
+202,17,select_blank,exercise,201,A brief sideways pause before continuing is a ___.,Flag pattern|Double bottom|Trendline,0,,,A flag pattern is a brief pause in the trend's direction before it continues.
+203,17,multiple_choice,exercise,201,Head and shoulders often signals a trend:,Continuation|Reversal|Nothing,1,,,Head and shoulders is typically read as a reversal signal.
+204,17,multiple_choice,exercise,201,A flag pattern usually signals the trend will:,Reverse|Vanish|Continue,2,,,A flag pattern is a pause before the original trend continues.
+205,17,select_blank,exercise,201,"Three peaks, middle highest: head and ___.",Shoulders|Flags|Tops,0,,,Head and shoulders shows three peaks with the middle one highest.
+206,18,true_false,preview,207,A double bottom often signals an upward reversal.,,true,,,Two similar lows with a bounce hint at a reversal up.
+207,18,multiple_choice,main,,Which one is a chart pattern?,Broker|Double bottom|Spread,1,,,A double bottom (two similar lows) hints at an upward reversal. RSI reads momentum; a crossover hints at a trend shift.
+208,18,select_blank,exercise,207,A high RSI suggests ___.,Oversold|Range-bound|Overbought,2,,,A high RSI reading suggests overbought.
+209,18,match_pairs,exercise,207,Match each term to its meaning.,"SMA↔Equal weights|EMA↔Recent-heavy|Volume spike↔Sudden burst of trading|Double bottom↔Two lows, then a bounce",,,,These are the chart-reading tools so far.
+210,19,true_false,preview,211,Account equity is cash plus your open positions' value.,,true,,,Account equity is the total current dollar value of everything in your account — cash plus the market value of any open positions.
+211,19,multiple_choice,main,,Account equity is your account's:,Total value|Total profit|Share count,0,,,"Account equity is your account's total value: cash plus open positions. Risk per trade is the dollar amount, a small percent of equity, you risk."
+212,19,select_blank,exercise,211,Risk per trade is a percent of your ___.,Volume|Equity|Spread,1,,,"Risk per trade is the amount you're willing to lose on a single trade if it goes wrong, usually a small percent of account equity."
+213,19,multiple_choice,exercise,211,Account equity includes cash plus:,Closed trades|Commissions|Open positions,2,,,Account equity is cash plus the current market value of any open positions.
+214,19,multiple_choice,exercise,211,A trader who risks 1% per trade keeps risk:,Small|Large|Unlimited,0,,,"Risking a small, consistent percent per trade — like 1% — keeps risk per trade small and controlled."
+215,19,multiple_choice,exercise,211,"Risking 1% of $10,000 equity is:","$1,000|$100|$10",1,,,"1% of $10,000 is $100. Risk per trade is a small percent of account equity."
+216,19,true_false,preview,217,Position size is how many shares you buy.,,true,,,"Position size is the number of shares (or dollar amount) you buy in a trade, chosen to match how much risk you're willing to take."
+217,19,multiple_choice,main,,Position size should match how much you're willing to:,Borrow|Lose|Ignore,1,,,Position size is how many shares you buy. Risk per trade divided by stop distance sets it; doubling shares doubles your dollar risk.
+218,19,select_blank,exercise,217,Shares bought in one trade is its ___.,Account equity|Spread|Position size,2,,,Position size is the number of shares (or dollar amount) bought in a single trade.
+219,19,multiple_choice,exercise,217,More risk per trade usually allows a:,Bigger position|Smaller position|Same position,0,,,"With the same stop distance, being willing to risk more dollars per trade allows a bigger position size."
+220,19,multiple_choice,exercise,217,Doubling your position size doubles your:,Ticker symbol|Dollar risk|Spread,1,,,Doubling position size doubles the dollar amount at risk on that trade.
+221,20,true_false,preview,222,A stop-loss sells once price drops to a level.,,true,,,A stop-loss caps your loss; a take-profit locks in a planned gain.
+222,20,multiple_choice,main,,A stop-loss caps your:,Gain|Commission|Loss,2,,,"A stop-loss sells automatically once price drops to a level, capping your loss. A take-profit sells once price rises to a level, locking in gain."
+223,20,select_blank,exercise,222,Locking in a gain automatically is a ___.,Take-profit|Stop-loss|Commission,0,,,"A take-profit automatically sells once price rises to a chosen level, locking in a gain."
+224,20,multiple_choice,exercise,222,A stop-loss triggers when price:,Rises|Falls|Never moves,1,,,"A stop-loss triggers once price falls to the chosen level, capping the loss."
+225,20,multiple_choice,exercise,222,A take-profit locks in gains when price:,Falls|Never moves|Rises,2,,,"A take-profit triggers once price rises to the chosen level, locking in the gain."
+226,20,multiple_choice,exercise,222,"Bought at $50, exits at $48: a:",Take-profit|Breakout|Stop-loss,2,,,"A stop-loss sells once price drops to a chosen level, capping the loss."
+227,20,true_false,preview,228,A 1-to-3 risk-reward ratio risks $1 to make $3.,,true,,,A risk-reward ratio compares how much you stand to lose to how much you stand to gain.
+228,20,multiple_choice,main,,Risk-reward ratio compares potential loss to potential:,Gain|Commission|Volume,0,,,"A risk-reward ratio compares what you risk with what you could gain, like risking $1 to make $3."
+229,20,select_blank,exercise,228,Risking $1 to make $3 is a risk-reward ___.,Spread|Ratio|Leverage,1,,,A 1-to-3 risk-reward ratio means risking $1 for a potential $3 gain.
+230,20,multiple_choice,exercise,228,A better risk-reward ratio means risking less to:,Gain less|Gain nothing|Gain more,2,,,A better risk-reward ratio means a smaller potential loss for a larger potential gain.
+231,20,multiple_choice,exercise,228,Doubling your potential loss without raising the reward:,Worsens ratio|Improves ratio|No change,0,,,A worse risk-reward ratio means risking more for a smaller potential gain.
+232,21,true_false,preview,233,A daily loss limit stops trading for the day.,,true,,,"A daily loss limit is a fixed dollar amount that, once lost, stops trading for the rest of the day."
+233,21,multiple_choice,main,,A daily loss limit is a fixed:,Profit target|Stop-trading point|Position size,1,,,A daily loss limit is a fixed dollar loss that ends trading for the day. Drawdown is the drop from an account's peak value.
+234,21,select_blank,exercise,233,The drop from an account's peak is its ___.,Spread|Leverage|Drawdown,2,,,Drawdown is the drop from an account's highest recent value down to a lower point.
+235,21,multiple_choice,exercise,233,Hitting your daily loss limit means you:,Stop trading|Double size|Ignore it,0,,,A daily loss limit is meant to be respected — hitting it means stopping for the day.
+236,21,multiple_choice,exercise,233,A bigger drawdown means a:,Smaller drop|Bigger drop|No change,1,,,A bigger drawdown is a bigger drop from the account's highest recent value.
+237,21,multiple_choice,exercise,233,A daily loss limit is often a percent of:,Account equity|Volume|A ticker,0,,,Traders often set the daily loss limit as a small percent of account equity.
+238,21,true_false,preview,239,A margin call demands more money after losses.,,true,,,A margin call is a demand from your broker for more money; overleveraging makes a small adverse move very costly.
+239,21,multiple_choice,main,,A margin call demands you:,Close account|Get refund|Deposit money,2,,,A margin call is your broker's demand to deposit money after margin losses. Overleveraging is a position so large that a small move costs heavily.
+240,21,select_blank,exercise,239,A position too big for your account is ___.,Overleveraging|Commission|Slippage,0,,,Overleveraging is borrowing or sizing a position so large that a small adverse move hurts badly.
+241,21,multiple_choice,exercise,239,Overleveraging makes a small adverse move:,Harmless|Very costly|Impossible,1,,,Overleveraging means even a small adverse price move can cause outsized losses.
+242,21,multiple_choice,exercise,239,A margin call follows losses on:,Cash trades|Winning trades|Borrowed trades,2,,,A margin call follows losses on margin (borrowed) trades that eat into required equity.
+243,21,multiple_choice,exercise,239,Heavy margin plus a 5% drop can trigger a:,Breakout|Margin call|Spread,1,,,Big losses on borrowed money can trigger a margin call.
+244,22,true_false,preview,245,FOMO is the urge to chase a fast move.,,true,,,"FOMO, fear of missing out, is the anxious urge to jump into a trade late just because it's moving fast."
+245,22,multiple_choice,main,,FOMO pushes traders to enter:,Too late|Too early|Never,0,,,"FOMO, fear of missing out, is the urge to chase a fast move and jump in late. Emotion, not your written plan, drives these trades."
+246,22,select_blank,exercise,245,Fear of missing out is called ___.,Leverage|FOMO|Slippage,1,,,FOMO stands for fear of missing out.
+247,22,multiple_choice,exercise,245,FOMO trades are often driven by:,Habit|Discipline|Emotion,2,,,FOMO trades are driven by emotion rather than a trader's written plan.
+248,23,true_false,preview,249,Revenge trading tries to win back a loss quickly.,,true,,,Revenge trading immediately tries to win back a loss; tilt is the frustration that pushes a trader toward it.
+249,23,multiple_choice,main,,Revenge trading is driven by a recent:,Loss|Win|Plan,0,,,"Revenge trading is a quick, often oversized trade to win back a loss. Tilt is the frustration after a loss that drives impulsive decisions."
+250,23,select_blank,exercise,249,Emotional frustration after a loss is called ___.,FOMO|Tilt|Slippage,1,,,Tilt is the emotional frustration after a loss that pushes a trader toward impulsive decisions.
+251,23,multiple_choice,exercise,249,Revenge trading often means sizing:,Smaller|Same|Bigger,2,,,Revenge trades are often oversized compared to a trader's normal plan.
+252,23,multiple_choice,exercise,249,Tilt pushes traders toward decisions that are:,Impulsive|Careful|Planned,0,,,"Tilt pushes a trader into impulsive, undisciplined decisions."
+253,23,multiple_choice,exercise,249,Doubling size after a loss to recover it is:,Patience|Saving|Revenge trading,2,,,Oversized trades made to win back a loss are revenge trading.
+254,23,true_false,preview,255,Overtrading means taking far more trades than planned.,,true,,,"Overtrading is placing far more trades than a plan calls for, often driven by boredom or excitement."
+255,23,multiple_choice,main,,Overtrading means placing:,Too few|Too many|Zero,1,,,"Overtrading is placing far more trades than your plan calls for, often from boredom or excitement, not real signals."
+256,23,select_blank,exercise,255,"Trading from boredom, not a real signal, is ___.",Overleveraging|Slippage|Overtrading,2,,,Overtrading is often driven by boredom or excitement rather than a genuine setup.
+257,23,multiple_choice,exercise,255,Overtrading is often driven by:,Boredom|A plan|Discipline,0,,,"Overtrading is driven by boredom, excitement, or trying to force profits, not a written plan."
+258,23,multiple_choice,exercise,255,A 3-trade plan that takes 15 trades is:,Position sizing|Overtrading|Revenge trading,1,,,Taking far more trades than a plan calls for is exactly overtrading.
+259,24,true_false,preview,260,Risk per trade is a percent of account equity.,,true,,,You risk a small percent of account equity per trade.
+260,24,multiple_choice,main,,Position size follows your:,Risk per trade|Ticker|Watchlist,0,,,"Position size follows risk per trade, a percent of account equity. A stop-loss caps loss; a daily loss limit ends the day."
+261,24,select_blank,exercise,260,Chasing a fast move is ___.,Tilt|FOMO|Slippage,1,,,FOMO is the urge to jump in late.
+262,24,match_pairs,exercise,260,Match each term to its meaning.,Stop-loss↔Caps your loss|Daily loss limit↔Ends trading for the day|Margin call↔Demand for more money|Revenge trading↔Trading to win back a loss,,,,Risk rules and emotions shape every trade.
+263,25,true_false,preview,264,A trading journal logs every trade's setup and result.,,true,,,"A trading journal is a written log where a trader records every trade's setup, reasoning, result, and lessons learned."
+264,25,multiple_choice,main,,A trading journal records a trade's:,Price only|Nothing|Full story,2,,,"A trading journal is a written log recording every trade's setup, reasoning, result, and lessons learned to review later."
+265,25,select_blank,exercise,264,A written log of every trade is a ___.,Trading journal|Watchlist|Trendline,0,,,A trading journal is the written log a trader keeps of every trade taken.
+266,25,multiple_choice,exercise,264,Reviewing a trading journal helps a trader:,Guess randomly|Learn patterns|Avoid risk,1,,,Reviewing a trading journal helps a trader learn from patterns in their own past trades.
+267,25,true_false,preview,268,Backtesting tests trading rules against past price data.,,true,,,Backtesting tests a strategy's rules against past price data; win rate is the percentage of trades that won.
+268,25,multiple_choice,main,,Backtesting checks a strategy against:,Future news|Nothing|Past data,2,,,"Backtesting tests trading rules on past price data. Win rate is the share of trades that won, but a high rate alone doesn't guarantee profit."
+269,25,select_blank,exercise,268,The percent of trades that won is the ___.,Win rate|Risk-reward ratio|Spread,0,,,Win rate is the percentage of total trades that ended as winners.
+270,25,select_blank,exercise,268,Backtesting should happen ___ risking real money.,After|Before|Never,1,,,Backtesting is done before risking real money on a new strategy.
+271,25,multiple_choice,exercise,268,A high win rate alone guarantees:,Profit|Safety|Nothing,2,,,A high win rate alone doesn't guarantee profit — risk-reward ratio matters too.
+272,25,select_blank,exercise,268,Winning 6 of 10 trades is a 60% ___.,Win rate|Spread|Drawdown,0,,,Win rate is the percentage of trades that ended as winners.
+273,26,true_false,preview,274,A trading plan writes down entry and exit rules.,,true,,,"A trading plan is a trader's own written rulebook covering entry rules, exit rules, and more."
+274,26,multiple_choice,main,,A trading plan is a trader's own:,Written rulebook|Broker account|Chart pattern,0,,,A trading plan is your written rulebook. An entry rule says when to open a trade; an exit rule says when to close one.
+275,26,select_blank,exercise,274,A rule for opening a trade is an ___.,Exit rule|Entry rule|Watchlist,1,,,"An entry rule is a specific, written condition that must be true before opening a trade."
+276,26,select_blank,exercise,274,Deciding when to close a trade is an ___.,Entry rule|Watchlist|Exit rule,2,,,"An exit rule decides when to close a trade, whether it's winning or losing."
+277,26,multiple_choice,exercise,274,A trading plan should be written:,Before trading|After losses|Never,0,,,"A trading plan is written before trading begins, not improvised afterward."
+278,26,multiple_choice,exercise,274,Entry and exit rules both belong in a:,Watchlist|Trading plan|Margin account,1,,,Entry rules and exit rules are both core parts of a written trading plan.
+279,26,select_blank,exercise,274,Buy only above a set price: an ___.,Exit rule|Entry rule|Watchlist,1,,,An entry rule is a written condition that must be true to open a trade.
+280,26,select_blank,exercise,274,Selling at a set target follows an ___.,Entry rule|Order|Exit rule,2,,,An exit rule decides when to close a trade.
+281,26,true_false,preview,282,A trading strategy is your method for finding trades.,,true,,,"A trading strategy is the overall method a trader uses to find trades, and it should fit inside a trading plan."
+282,26,multiple_choice,main,,A trading strategy is a trader's:,Broker account|Loss limit|Method,2,,,"A trading strategy is your method for finding trades, like trading breakouts. It fits inside your broader trading plan."
+283,26,select_blank,exercise,282,Trading breakouts is one example of a ___.,Trading strategy|Trading plan|Watchlist,0,,,Trading breakouts is one example of a trading strategy.
+284,26,multiple_choice,exercise,282,A trading strategy should fit inside a trader's:,Margin account|Trading plan|Ticker symbol,1,,,"A trading strategy is the method used, which fits inside the trader's broader trading plan."
+285,26,multiple_choice,exercise,282,Trading pullbacks to a moving average is a:,Loss limit|Margin call|Trading strategy,2,,,Trading pullbacks to a moving average is another concrete example of a trading strategy.
+286,27,true_false,preview,287,"Paper trading practices with fake, simulated money.",,true,,,Paper trading practices with simulated money; a demo account is the account funded with that simulated money.
+287,27,multiple_choice,main,,Paper trading uses:,Simulated money|Real money|Borrowed money,0,,,"Paper trading practices trades with fake, simulated money on a real price feed. A demo account is the brokerage account funded with that simulated money."
+288,27,select_blank,exercise,287,An account funded with fake money is a ___.,Cash account|Demo account|Margin account,1,,,A demo account is funded with simulated money instead of real cash.
+289,27,multiple_choice,exercise,287,Paper trading lets a beginner practice:,With losses|On weekends|Risk-free,2,,,Paper trading lets a beginner practice a strategy without risking real money.
+290,27,multiple_choice,exercise,287,"Before risking real money, a new strategy should be:",Paper traded|Backtested only|Never tested,0,,,A new strategy is best paper traded (and backtested) before risking real money.
+291,27,multiple_choice,exercise,287,The main benefit of paper trading is:,Zero risk|More profit|Lower fees,0,,,Paper trading lets a beginner practice without risking real money.
+292,28,true_false,preview,293,Trading without a stop-loss is a common beginner mistake.,,true,,,"Skipping a stop-loss, ignoring loss limits, revenge trading, and overleveraging are common beginner mistakes."
+293,28,multiple_choice,main,,A common beginner mistake is trading without a:,Watchlist|Stop-loss|Ticker symbol,1,,,"Skipping a stop-loss, ignoring daily loss limits, revenge trading, and overleveraging are among the most common beginner mistakes."
+294,28,multiple_choice,exercise,293,Ignoring a daily loss limit often leads to:,Bigger gains|No change|Bigger losses,2,,,Ignoring a daily loss limit removes the guardrail meant to stop a bad day from getting worse.
+295,28,multiple_choice,exercise,293,FOMO entries are usually:,Worse|Better|The same,0,,,Chasing a move out of FOMO usually means entering at a worse price than a planned entry would.
+296,28,multiple_choice,exercise,293,Overleveraging turns a small adverse move into a:,Harmless one|Costly one|Impossible one,1,,,Overleveraging means even a small adverse move can cause outsized losses.
+297,28,match_pairs,exercise,293,Match each mistake to its fix.,"No stop-loss↔Set one before entry|Revenge trading↔Walk away, journal it|Overleveraging↔Size to risk per trade",,,,"Each common mistake has a specific, concrete fix rooted in the trading plan basics covered earlier."
+298,29,true_false,preview,299,A limit order is one type of stock order.,,true,,,This final deck reviews key terms from across the whole course.
+299,29,multiple_choice,main,,Which of these is a type of stock order?,Candlestick|Trading journal|Limit order,2,,,A limit order is a type of stock order; a candlestick is a chart element; a trading journal is a review tool.
+300,29,match_pairs,exercise,299,Match each term to its meaning.,Bid↔Buyer's highest price|Ask↔Seller's lowest price|Liquidity↔Trades easily|Slippage↔Unexpected fill price,,,,"Bid, ask, liquidity, and slippage all describe how a trade actually fills in the market."
+301,29,match_pairs,exercise,299,Pair every term with its meaning.,Support↔Price where drops stop|Resistance↔Price where rallies stop|Breakout↔Pushes above resistance|Trendline↔Line across highs/lows,,,,"Support, resistance, breakouts, and trendlines are core tools for reading a chart's structure."
+302,29,match_pairs,exercise,299,Which meaning fits each term?,"RSI↔Momentum, 0 to 100|MACD↔Compares two averages|SMA↔Simple moving average|EMA↔Weights recent prices more",,,,"RSI, MACD, SMA, and EMA are all indicators built from a stock's own price history."
+303,29,match_pairs,exercise,299,Connect each term to what it means.,Stop-loss↔Caps your loss|Take-profit↔Locks in a gain|Drawdown↔Drop from account peak|Margin call↔Demand for more money,,,,"Stop-loss, take-profit, drawdown, and margin call are all core risk-management concepts."
+304,29,match_pairs,exercise,299,Match every term below to its meaning.,FOMO↔Fear of missing out|Tilt↔Frustration-driven decisions|Overtrading↔Too many trades|Backtesting↔Tests rules on past data,,,,"FOMO, tilt, overtrading, and backtesting all shape whether a trader actually sticks to their plan."
+305,29,multiple_choice,exercise,299,Which tool caps your loss?,Take-profit|Stop-loss|Watchlist,1,,,"A stop-loss sells automatically once price drops to a level, capping your loss."
+306,29,true_false,preview,307,A stop-limit order and a stop order differ.,,true,,,"This pack recycles more markets, orders, and platform terms from earlier in the course."
+307,29,multiple_choice,main,,Which of these regulates US brokers?,FINRA|A candlestick|A trendline,0,,,"FINRA is the regulator; a candlestick and a trendline are both charting tools, not regulators."
+308,29,match_pairs,exercise,307,Match each term to its meaning.,Position trading↔Holding for weeks or longer|AAPL↔Apple's ticker symbol|Pre-market↔Session before the open|After-hours↔Session after the close,,,,"Position trading, AAPL, pre-market, and after-hours all came up early in the Foundations decks."
+309,29,match_pairs,exercise,307,Pair every term with its meaning.,Trading session↔A block of trading time|Stop-limit order↔Triggers into a limit order|Buying power↔Total purchasable dollar amount,,,,"Trading session, stop-limit order, and buying power are all core order/account terms."
+310,29,match_pairs,exercise,307,Which meaning fits each term?,"Real-time data↔Live, up-to-the-second prices|Level II quotes↔Full bid/ask stack|Hotkey↔One-keystroke order shortcut",,,,"Real-time data, Level II quotes, and hotkeys are all trading-platform features."
+311,29,match_pairs,exercise,307,Connect each term to what it means.,Payment for order flow↔Broker revenue from routing orders|SEC↔US government market regulator|Pattern day trader↔Historical 4-day-trade label|Intraday margin requirement↔2026's replacement for the $25k rule,,,,"Payment for order flow, the SEC, pattern day trader, and the intraday margin requirement round out the regulation and platform terms."
+312,29,multi_select,exercise,307,Which two are platform tools?,Order entry|Charting platform|Commission|Spread,0|1,,,Order entry sends orders and a charting platform displays charts; a commission and the spread are costs.
+313,29,true_false,preview,314,Double top and head and shoulders are chart patterns.,,true,,,"This pack recycles more chart-reading, risk, and planning terms from earlier in the course."
+314,29,multiple_choice,main,,Which of these is a chart pattern?,Trading journal|Double top|Margin call,1,,,A double top is a chart pattern; a trading journal and a margin call are not.
+315,29,match_pairs,exercise,314,Match each term to its meaning.,Bullish candle↔Closed higher than it opened|Bearish candle↔Closed lower than it opened|Chart interval↔Time each candle covers|Volume spike↔Sudden burst of trading,,,,"Bullish candle, bearish candle, chart interval, and volume spike are all candlestick/chart basics."
+316,29,match_pairs,exercise,314,Pair every term with its meaning.,"Moving average crossover↔Two averages crossing|Overbought↔Risen fast, due for a pullback|Oversold↔Fallen fast, due for a bounce|Double top↔Two similar highs, a dip between",,,,"Moving average crossover, overbought, oversold, and double top are all technical-analysis terms."
+317,29,match_pairs,exercise,314,Which meaning fits each term?,"Head and shoulders↔Three peaks, middle highest|Flag pattern↔Brief pause before the trend continues|Win rate↔Percent of trades that won|Entry rule↔Written condition to open a trade",,,,"Head and shoulders, flag pattern, win rate, and entry rule span chart patterns and plan-writing."
+318,29,match_pairs,exercise,314,Connect each term to what it means.,Exit rule↔Written condition to close a trade|Trading strategy↔A trader's method for finding trades|Paper trading↔Practicing with simulated money|Demo account↔Account funded with fake money,,,,"Exit rule, trading strategy, paper trading, and demo account round out the plan-writing and practice terms."
+319,29,multi_select,exercise,314,Which two are chart patterns?,Double bottom|Flag pattern|Trading plan|Spread,0|1,,,A double bottom and a flag pattern are chart patterns; a trading plan is your written rulebook.
+320,29,multiple_choice,exercise,314,A written rulebook for trading is a:,Watchlist|Ticker|Trading plan,2,,,A trading plan is your own written rulebook.

@@ -1,0 +1,52 @@
+{
+  "id": "76c5271fd522",
+  "title": "Day Trading Plan",
+  "description": "A complete-beginner path to building and following a real day trading plan — market mechanics, reading charts, risk and money management, and the psychology and discipline that make a plan actually stick.",
+  "image": "cover.png",
+  "file": "day-trading-plan.zip",
+  "version": "1.0.0",
+  "tags": [
+    "trading",
+    "finance",
+    "risk-management",
+    "beginner"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-27",
+      "notes": "Initial release: 29 decks covering trading fundamentals, technical analysis basics, risk and money management, trading psychology, and building a written trading plan."
+    }
+  ],
+  "toc": [
+    "What Is Day Trading?",
+    "Markets & Sessions",
+    "Order Types",
+    "Bid Ask & Spread",
+    "Brokerage Accounts & Margin",
+    "Checkpoint: Markets & Accounts",
+    "Trading Platforms & Tools",
+    "Rules & Regulation",
+    "Candlestick Basics",
+    "Timeframes & Charts",
+    "Support & Resistance",
+    "Checkpoint: Platforms & First Charts",
+    "Trend & Trendlines",
+    "Volume",
+    "Moving Averages",
+    "Momentum Indicators",
+    "Chart Patterns",
+    "Checkpoint: Reading Charts",
+    "Position Sizing",
+    "Stop-Loss & Risk-Reward",
+    "Loss Limits & Overleveraging",
+    "Fear Greed & FOMO",
+    "Revenge Trading & Tilt",
+    "Checkpoint: Risk & Mindset",
+    "Trading Journal & Review",
+    "Writing a Trading Plan",
+    "Practicing Risk-Free",
+    "Common Beginner Mistakes",
+    "Recap: Key Terms"
+  ]
+}

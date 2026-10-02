@@ -1,0 +1,107 @@
+term,definition,link,introduced_by_card_id
+day trade,Buying and selling (or short-selling and buying back) the exact same stock within the same single trading day.,https://www.investopedia.com/terms/d/daytrader.asp,2
+day trading,"Buying and selling stocks within the same day to profit from small price moves, closing every position before the market closes.",https://www.investopedia.com/terms/d/daytrader.asp,2
+position trading,"Holding a stock for weeks, months, or years — the opposite approach from day trading.",https://www.investopedia.com/terms/p/positiontrader.asp,10
+intraday,"Happening within a single trading day, like a price move or a trade that opens and closes before the market closes.",https://www.investopedia.com/terms/i/intraday.asp,2
+exchange,"A marketplace, like the New York Stock Exchange or Nasdaq, where stocks are actually bought and sold.",https://www.investopedia.com/terms/e/exchange.asp,14
+ticker symbol,"The short letter code, like AAPL for Apple, used to identify a specific stock on an exchange.",https://www.investopedia.com/terms/t/tickersymbol.asp,14
+pre-market,"The trading session before the official market open, usually thinner and choppier than regular hours.",https://www.investopedia.com/terms/p/premarket.asp,20
+after-hours,"The trading session after the official market close, usually thinner and choppier than regular hours.",https://www.investopedia.com/terms/a/afterhourstrading.asp,20
+trading session,"The block of time, like the regular 9:30am-4pm ET US stock market hours, during which trading actually happens.",https://en.wikipedia.org/wiki/Extended-hours_trading,20
+market order,"An order that buys or sells a stock immediately at the best price currently available, with no price guarantee.",https://www.investopedia.com/terms/m/marketorder.asp,28
+limit order,"An order that only buys or sells a stock at a specific price or better, even if that means it never fills.",https://www.investopedia.com/terms/l/limitorder.asp,32
+stop order,"An order that sits inactive until the stock hits a chosen price, then automatically turns into a market order.",https://www.investopedia.com/terms/s/stoporder.asp,36
+stop-limit order,"A stop order that, once triggered, becomes a limit order instead of a market order, guaranteeing price but not guaranteeing it fills.",https://www.investopedia.com/terms/s/stop-limitorder.asp,36
+bid,The highest price a buyer is currently willing to pay for a stock right now.,https://www.investopedia.com/terms/b/bid.asp,42
+ask,The lowest price a seller is currently willing to accept for a stock right now.,https://www.investopedia.com/terms/a/ask.asp,42
+spread,The gap between the current bid price and the current ask price of a stock.,https://www.investopedia.com/terms/b/bid-askspread.asp,42
+liquidity,"How easily a stock can be bought or sold quickly without moving its price much, because there are lots of buyers and sellers.",https://www.investopedia.com/terms/l/liquidity.asp,50
+slippage,The difference between the price you expected a trade to fill at and the price it actually filled at.,https://www.investopedia.com/terms/s/slippage.asp,50
+broker,"A licensed firm or platform, like a brokerage app, that you place stock orders through.",https://www.investopedia.com/terms/b/broker.asp,56
+margin account,A brokerage account that lets you borrow money from your broker to buy more stock than your own cash could afford.,https://www.investopedia.com/terms/m/marginaccount.asp,56
+cash account,"A brokerage account where you can only trade with money you actually have deposited, with no borrowing allowed.",https://www.investopedia.com/terms/c/cashaccount.asp,56
+buying power,"The total dollar amount of stock you're allowed to purchase right now, including any money your broker lets you borrow.",https://www.investopedia.com/terms/b/buyingpower.asp,64
+leverage,"Using borrowed money to control a bigger stock position than your own cash alone could buy, which multiplies both gains and losses.",https://www.investopedia.com/terms/l/leverage.asp,64
+trading platform,"The software — a broker's own app or a separate program — you actually use to look at charts, place orders, and manage your account.",https://www.investopedia.com/terms/t/trading-platform.asp,74
+order entry,The part of a trading platform where you type or click to build and send a buy or sell order.,https://www.investopedia.com/terms/t/trading-platform.asp,74
+watchlist,A saved list of stocks a trader keeps on their platform to track closely without holding a position in them yet.,https://www.investopedia.com/terms/w/watchlist.asp,74
+charting platform,"Software focused mainly on displaying and analyzing price charts, sometimes separate from the platform you actually place orders on.",https://www.investopedia.com/terms/t/trading-platform.asp,82
+real-time data,"Live, up-to-the-second price and quote data, as opposed to data that's delayed by several minutes.",https://www.investopedia.com/terms/r/real-time-quote.asp,82
+Level II quotes,"A data feed showing every current bid and ask price waiting in line for a stock, not just the single best bid and ask.",https://www.investopedia.com/terms/l/level2.asp,82
+hotkey,"A single keyboard shortcut, set up in advance, that instantly sends a specific order — used on desktop platforms so a trade doesn't need several clicks to fire.",https://www.investopedia.com/terms/t/trading-platform.asp,94
+commission,The fee a broker charges for executing a trade; most US stock brokers dropped this to zero for ordinary stock and ETF trades.,https://www.investopedia.com/terms/c/commission.asp,98
+payment for order flow,"Money a broker earns by routing your order to a particular market maker to fill, which is part of how many brokers offer commission-free trading.",https://www.investopedia.com/terms/p/paymentoforderflow.asp,98
+FINRA,"The Financial Industry Regulatory Authority, the US organization that writes and enforces the rulebook brokers must follow.",https://www.finra.org/about,104
+SEC,"The Securities and Exchange Commission, the US government agency that regulates the stock markets and protects investors.",https://www.sec.gov/about,104
+pattern day trader,"A historical FINRA label for a margin-account trader making 4+ day trades in 5 business days; it required $25,000 minimum equity until that requirement was eliminated in June 2026 in favor of new intraday margin rules.",https://www.finra.org/rules-guidance/notices/26-10,110
+intraday margin requirement,"The 2026 FINRA rule that replaced the old $25,000 pattern-day-trader minimum, requiring brokers to hold equity in proportion to how much a trader is actually exposed to during the trading day.",https://www.finra.org/rules-guidance/notices/26-10,110
+candlestick,"A single chart symbol showing a stock's open, close, high, and low price for one time period, shaped like a candle with a body and wicks.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,116
+wick,"The thin line above or below a candlestick's body, showing the highest and lowest prices reached during that period.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,116
+candle body,The thick rectangular part of a candlestick showing the distance between the opening price and the closing price.,https://www.investopedia.com/trading/candlestick-charting-what-is-it/,116
+bullish candle,"A candlestick where the closing price ended higher than the opening price, usually colored green or white.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,124
+bearish candle,"A candlestick where the closing price ended lower than the opening price, usually colored red or black.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,124
+timeframe,"The length of time each candlestick or bar on a chart represents, like 1 minute, 5 minutes, or 1 day.",https://chartsview.co.uk/learn-to-trade/chart-timeframes-explained,130
+chart interval,Another name for the timeframe setting that controls how much time each single candlestick on a chart covers.,https://chartsview.co.uk/learn-to-trade/chart-timeframes-explained,130
+support,A price level where a falling stock has historically stopped dropping because enough buyers stepped in.,https://www.investopedia.com/terms/s/support.asp,136
+resistance,A price level where a rising stock has historically stopped climbing because enough sellers stepped in.,https://www.investopedia.com/terms/r/resistance.asp,136
+breakout,"When a stock's price pushes through a resistance level and keeps climbing past it, instead of turning back down.",https://www.investopedia.com/terms/b/breakout.asp,142
+breakdown,"When a stock's price pushes through a support level and keeps falling past it, instead of bouncing back up.",https://www.investopedia.com/terms/b/breakdown.asp,142
+uptrend,"A stretch of time where a stock's price is generally making higher highs and higher lows, moving upward overall.",https://www.investopedia.com/terms/u/uptrend.asp,152
+downtrend,"A stretch of time where a stock's price is generally making lower highs and lower lows, moving downward overall.",https://www.investopedia.com/terms/d/downtrend.asp,152
+trendline,A straight line drawn across a chart connecting a stock's recent highs or lows to show the direction it's been moving.,https://www.investopedia.com/terms/t/trendline.asp,160
+range-bound,"A stock moving sideways between a fairly steady support level and resistance level, without a clear up or down trend.",https://www.investopedia.com/terms/t/tradingrange.asp,152
+volume,"The number of shares of a stock that actually changed hands, bought and sold, during a given time period.",https://www.investopedia.com/terms/v/volume.asp,164
+volume spike,"A sudden, much-larger-than-usual burst of shares trading hands, often signaling unusually strong interest in a stock.",https://www.investopedia.com/terms/v/volume.asp,164
+moving average,"A line that smooths out a stock's price by averaging it over a set number of recent periods, like the last 50 days.",https://www.investopedia.com/terms/m/movingaverage.asp,170
+SMA,"Simple moving average: a moving average that weights every price in its lookback period equally, with no extra emphasis on recent prices.",https://www.investopedia.com/terms/s/sma.asp,170
+EMA,"Exponential moving average: a moving average that gives more weight to recent prices, so it reacts to new price moves faster than an SMA.",https://www.investopedia.com/terms/e/ema.asp,170
+moving average crossover,"A signal traders watch for when a faster moving average crosses above or below a slower moving average, often read as a shift in trend.",https://www.investopedia.com/terms/m/movingaverage.asp,178
+RSI,"Relative Strength Index: an indicator from 0 to 100 that measures how fast and how far a stock's price has recently moved, used to spot overbought or oversold conditions.",https://www.investopedia.com/terms/r/rsi.asp,183
+overbought,"A stock whose price has risen so far, so fast that it's considered due for a pullback, often flagged by a high RSI reading.",https://www.investopedia.com/terms/o/overbought.asp,183
+oversold,"A stock whose price has fallen so far, so fast that it's considered due for a bounce, often flagged by a low RSI reading.",https://www.investopedia.com/terms/o/oversold.asp,183
+MACD,Moving Average Convergence Divergence: an indicator that compares two moving averages to show shifts in a stock's momentum and trend direction.,https://www.investopedia.com/terms/m/macd.asp,191
+double top,"A chart pattern where a stock rallies to about the same high price twice, with a dip in between, often signaling a reversal downward.",https://www.investopedia.com/terms/d/doubletop.asp,195
+double bottom,"A chart pattern where a stock falls to about the same low price twice, with a bounce in between, often signaling a reversal upward.",https://www.investopedia.com/terms/d/doublebottom.asp,195
+head and shoulders,A chart pattern with three peaks — a higher middle peak flanked by two lower ones — often signaling an uptrend is about to reverse.,https://www.investopedia.com/terms/h/head-shoulders.asp,201
+flag pattern,"A chart pattern where price pauses and drifts sideways or slightly against the trend in a small rectangle shape, before continuing the original trend.",https://www.investopedia.com/terms/f/flag.asp,201
+position size,"The number of shares (or the dollar amount) you buy in a single trade, chosen to match how much risk you're willing to take.",https://www.investopedia.com/terms/p/positionsizing.asp,217
+account equity,"The total current dollar value of everything in your trading account, cash plus the market value of any open positions.",https://www.investopedia.com/terms/e/equity.asp,211
+risk per trade,"The dollar amount, usually a small percent of account equity, you're willing to lose on a single trade if it goes wrong.",https://www.investopedia.com/terms/p/positionsizing.asp,211
+stop-loss,"A pre-set order that automatically sells a stock once it drops to a chosen price, capping how much you can lose on that trade.",https://www.investopedia.com/terms/s/stop-lossorder.asp,222
+take-profit,"A pre-set order that automatically sells a stock once it rises to a chosen price, locking in a planned gain.",https://www.investopedia.com/terms/t/take-profitorder.asp,222
+risk-reward ratio,"How much you stand to lose on a trade compared to how much you stand to gain if it works out, like risking $1 to make $3.",https://www.investopedia.com/terms/r/riskrewardratio.asp,228
+daily loss limit,"A fixed dollar amount that, once lost in a single day, means you stop trading for the rest of that day no matter what.",https://www.investopedia.com/terms/d/drawdown.asp,233
+drawdown,"The drop from an account's highest recent value down to a lower point, measured in dollars or as a percentage.",https://www.investopedia.com/terms/d/drawdown.asp,233
+margin call,"A demand from your broker to deposit more money immediately, because losses on borrowed (margin) trades have eaten into your required equity.",https://www.investopedia.com/terms/m/margincall.asp,239
+overleveraging,Borrowing or sizing a position so large relative to your account that even a small adverse price move can wipe out a large share of your equity.,https://www.investopedia.com/terms/l/leverage.asp,239
+FOMO,"Fear of missing out: the anxious urge to jump into a trade late, just because a stock is moving fast and you don't want to miss the gain.",https://en.wikipedia.org/wiki/Fear_of_missing_out,245
+revenge trading,"Immediately making a new, often oversized trade to try to win back money just lost, instead of following your normal plan.",https://www.benzinga.com/money/what-is-revenge-trading,249
+tilt,"A state of emotional frustration after a loss that pushes a trader into impulsive, undisciplined decisions.",https://en.wikipedia.org/wiki/Tilt_(poker),249
+overtrading,"Placing far more trades than your plan calls for, often driven by boredom, excitement, or trying to force profits.",https://www.investopedia.com/terms/o/overtrading.asp,255
+trading journal,"A written log where a trader records every trade's setup, reasoning, result, and lessons learned to review later.",https://daytraderbusiness.com/basics/how-to-keep-a-day-trading-journal/,264
+backtesting,Testing a set of trading rules against past price data to see how it would have performed before ever risking real money on it.,https://www.investopedia.com/terms/b/backtesting.asp,268
+win rate,"The percentage of a trader's total trades that ended as winners, out of every trade taken.",https://www.investopedia.com/terms/w/win-loss-ratio.asp,268
+trading plan,"A trader's own written rulebook covering what to trade, when to enter and exit, how much to risk, and how to review results.",https://www.investopedia.com/terms/t/trading-plan.asp,274
+entry rule,"A specific, written condition in a trading plan that must be true before opening a new trade.",https://www.investopedia.com/terms/t/trading-plan.asp,274
+exit rule,"A specific, written condition in a trading plan that decides when to close a trade, whether it's winning or losing.",https://www.investopedia.com/terms/t/trading-plan.asp,274
+trading strategy,"The overall method a trader uses to find trades, such as trading breakouts or trading pullbacks to a moving average.",https://www.investopedia.com/terms/t/trading-strategy.asp,282
+paper trading,"Practicing trades with fake, simulated money on a real price feed so mistakes don't cost anything while still learning.",https://www.investopedia.com/terms/p/papertrade.asp,287
+demo account,"A brokerage account funded with simulated money instead of real cash, used to paper trade a strategy risk-free.",https://www.investopedia.com/terms/p/papertrade.asp,287
+AAPL,The ticker symbol for Apple stock on the exchange.,https://www.investopedia.com/terms/t/tickersymbol.asp,14
+NYSE,"The New York Stock Exchange, one of the largest stock exchanges in the world.",https://www.investopedia.com/terms/n/nyse.asp,14
+day trades,Buying and selling (or short-selling and buying back) the exact same stock within the same single trading day.,https://www.investopedia.com/terms/d/daytrader.asp,
+day-trade,Buying and selling (or short-selling and buying back) the exact same stock within the same single trading day.,https://www.investopedia.com/terms/d/daytrader.asp,
+exchanges,"A marketplace, like the New York Stock Exchange or Nasdaq, where stocks are actually bought and sold.",https://www.investopedia.com/terms/e/exchange.asp,
+brokers,"A licensed firm or platform, like a brokerage app, that you place stock orders through.",https://www.investopedia.com/terms/b/broker.asp,
+margin accounts,A brokerage account that lets you borrow money from your broker to buy more stock than your own cash could afford.,https://www.investopedia.com/terms/m/marginaccount.asp,
+trading-platform,"The software — a broker's own app or a separate program — you actually use to look at charts, place orders, and manage your account.",https://www.investopedia.com/terms/t/trading-platform.asp,
+charting platforms,"Software focused mainly on displaying and analyzing price charts, sometimes separate from the platform you actually place orders on.",https://www.investopedia.com/terms/t/trading-platform.asp,
+commissions,The fee a broker charges for executing a trade; most US stock brokers dropped this to zero for ordinary stock and ETF trades.,https://www.investopedia.com/terms/c/commission.asp,
+wicks,"The thin line above or below a candlestick's body, showing the highest and lowest prices reached during that period.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,
+candle bodies,The thick rectangular part of a candlestick showing the distance between the opening price and the closing price.,https://www.investopedia.com/trading/candlestick-charting-what-is-it/,
+bullish candles,"A candlestick where the closing price ended higher than the opening price, usually colored green or white.",https://www.investopedia.com/trading/candlestick-charting-what-is-it/,
+breakouts,"When a stock's price pushes through a resistance level and keeps climbing past it, instead of turning back down.",https://www.investopedia.com/terms/b/breakout.asp,
+moving averages,"A line that smooths out a stock's price by averaging it over a set number of recent periods, like the last 50 days.",https://www.investopedia.com/terms/m/movingaverage.asp,
+daily loss limits,"A fixed dollar amount that, once lost in a single day, means you stop trading for the rest of that day no matter what.",https://www.investopedia.com/terms/d/drawdown.asp,
+entry rules,"A specific, written condition in a trading plan that must be true before opening a new trade.",https://www.investopedia.com/terms/t/trading-plan.asp,
+exit rules,"A specific, written condition in a trading plan that decides when to close a trade, whether it's winning or losing.",https://www.investopedia.com/terms/t/trading-plan.asp,
