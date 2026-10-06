@@ -319,3 +319,51 @@ id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,ex
 318,29,match_pairs,exercise,314,Connect each term to what it means.,Exit rule↔Written condition to close a trade|Trading strategy↔A trader's method for finding trades|Paper trading↔Practicing with simulated money|Demo account↔Account funded with fake money,,,,"Exit rule, trading strategy, paper trading, and demo account round out the plan-writing and practice terms."
 319,29,multi_select,exercise,314,Which two are chart patterns?,Double bottom|Flag pattern|Trading plan|Spread,0|1,,,A double bottom and a flag pattern are chart patterns; a trading plan is your written rulebook.
 320,29,multiple_choice,exercise,314,A written rulebook for trading is a:,Watchlist|Ticker|Trading plan,2,,,A trading plan is your own written rulebook.
+321,1,multiple_choice,exam,,A day trade opens and closes:,Same day|Next week|Next month,0,,,Nothing is held overnight.
+322,1,true_false,exam,,"Position trading holds stocks for weeks, months or years.",,true,,,"Day trading, by contrast, closes the same day."
+323,5,multiple_choice,exam,,An exchange is a:,Regulator|Broker|Marketplace,2,,,NYSE and Nasdaq are examples where stocks trade.
+324,2,multiple_choice,exam,,Pre-market sits outside the:,Regular session|Weekend|Calendar,0,,,After-hours does too.
+325,3,multiple_choice,exam,,A market order mainly guarantees a:,Profit|Fast fill|Set price,1,,,It fills immediately at the best available price.
+326,3,multiple_choice,exam,,A limit order fills only at your price or:,Worse|Later|Better,2,,,It might never fill if the market does not reach it.
+327,3,true_false,exam,,"A stop order triggers, then becomes a market order.",,true,,,A stop-limit order triggers into a limit order instead.
+328,4,multiple_choice,exam,,The spread is the gap between bid and:,Open|Ask|Close,1,,,The ask is the lowest price a seller accepts.
+329,4,multiple_choice,exam,,High liquidity means a stock trades:,Rarely|Overnight|Easily,2,,,Low liquidity can cause slippage.
+330,5,multiple_choice,exam,,A margin account lets you:,Borrow|Print money|Skip fees,0,,,A cash account uses only your deposits.
+331,5,true_false,exam,,Leverage lets you control more than you deposit.,,true,,,It increases both gains and losses.
+332,6,multiple_choice,exam,,Which order fills only at your price?,Market order|Stop order|Limit order,2,,,A market order fills right away instead.
+333,7,multiple_choice,exam,,Traders chart and place orders on a:,Platform|Exchange|Regulator,0,,,It is software for charts and orders.
+334,7,multiple_choice,exam,,A hotkey sends an order with one:,Email|Keystroke|Phone call,1,,,It is a preset keyboard shortcut.
+335,7,true_false,exam,,Some brokers charge no commission on trades.,,true,,,A commission is a broker's fee per trade.
+336,8,multiple_choice,exam,,The SEC is a:,Government agency|Broker|Exchange,0,,,It oversees US markets; FINRA is self-regulatory.
+337,8,true_false,exam,,FINRA writes and enforces rules for brokers.,,true,,,It is a self-regulatory body.
+338,14,multiple_choice,exam,,"A candlestick shows open, high, low and:",Volume|Trend|Close,2,,,It covers one period.
+339,9,multiple_choice,exam,,A bullish candle has a:,Higher close|Lower close|Zero close,0,,,A bearish candle closes lower.
+340,14,multiple_choice,exam,,A chart's timeframe sets each candle's:,Volume|Length|Colour,1,,,For example one minute or one day.
+341,11,multiple_choice,exam,,Support is where falling prices tend to:,Accelerate|Reverse daily|Stop,2,,,Resistance is where rising prices tend to stall.
+342,11,multiple_choice,exam,,Price pushing above resistance is a:,Breakout|Breakdown|Pullback,0,,,A breakdown goes through support instead.
+343,12,multiple_choice,exam,,Which one displays price charts?,Watchlist|Charting platform|Order entry,1,,,Order entry sends your order to your broker.
+344,13,multiple_choice,exam,,An uptrend makes higher highs and higher:,Volumes|Spreads|Lows,2,,,A downtrend makes lower highs and lower lows.
+345,13,multiple_choice,exam,,A trendline connects recent:,Highs or lows|Orders|Brokers,0,,,It shows the direction the price has been moving.
+346,14,multiple_choice,exam,,Volume counts shares that:,Were created|Changed hands|Were canceled,1,,,A spike can signal unusually strong interest.
+347,15,multiple_choice,exam,,A moving average smooths price over:,One tick|Future days|Recent periods,2,,,An EMA weights recent prices more heavily.
+348,15,true_false,exam,,An SMA weights every price equally.,,true,,,An EMA weights recent prices more.
+349,16,multiple_choice,exam,,RSI measures momentum on a scale of:,0-1|0-100|1-10,1,,,High readings suggest overbought.
+350,16,multiple_choice,exam,,MACD compares two:,Brokers|Orders|Moving averages,2,,,It shows shifts in momentum.
+351,17,multiple_choice,exam,,Two similar highs form a:,Double top|Double bottom|Flag,0,,,It often signals a downward reversal.
+352,17,multiple_choice,exam,,"In head and shoulders, the middle peak is:",Missing|Highest|Lowest,1,,,It often signals a reversal.
+353,18,multiple_choice,exam,,A double bottom often hints at an:,Downward spike|Halted market|Upward reversal,2,,,It has two similar lows.
+354,19,multiple_choice,exam,,Account equity is cash plus open:,Positions|Debts|Fees,0,,,It is the account's total value.
+355,19,multiple_choice,exam,,Position size is how many:,Charts opened|Shares bought|Trades skipped,1,,,Risk per trade divided by stop distance sets it.
+356,20,multiple_choice,exam,,A stop-loss helps cap your:,Gain|Fees|Loss,2,,,It sells automatically once price drops to a level.
+357,20,true_false,exam,,Risking $1 to make $3 is a 1-to-3 ratio.,,true,,,It compares potential loss with potential gain.
+358,21,multiple_choice,exam,,A daily loss limit ends trading for the:,Hour|Day|Year,1,,,It is a fixed dollar loss set in advance.
+359,21,multiple_choice,exam,,A margin call demands you:,Open charts|Change brokers|Deposit money,2,,,It follows losses on margin.
+360,22,multiple_choice,exam,,FOMO is the urge to:,Chase moves|Wait calmly|Sell early,0,,,It means fear of missing out.
+361,23,multiple_choice,exam,,Revenge trading tries to win back a:,Rumour|Loss|Fee,1,,,"It is often an oversized, rushed trade."
+362,23,multiple_choice,exam,,Overtrading means far more trades than:,Possible|Allowed|Planned,2,,,It is often driven by boredom or excitement.
+363,24,multiple_choice,exam,,Position size follows your risk per:,Trade|Month|Chart,0,,,Risk per trade is a percent of account equity.
+364,25,multiple_choice,exam,,A trading journal logs each trade's setup and:,Rumour|Result|Weather,1,,,It also records reasoning and lessons learned.
+365,25,multiple_choice,exam,,Backtesting uses rules on:,Future data|Fake news|Past data,2,,,It tests a strategy on historical prices.
+366,26,multiple_choice,exam,,An entry rule says when to:,Open trades|Log off|Pay fees,0,,,An exit rule says when to close one.
+367,27,multiple_choice,exam,,Paper trading practises trades with:,Borrowed money|Simulated money|Real money,1,,,It runs on a real price feed with fake funds.
+368,28,multiple_choice,exam,,Trading without a stop-loss is a common:,Expert habit|Legal rule|Beginner mistake,2,,,Ignoring loss limits is another.
